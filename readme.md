@@ -54,5 +54,24 @@ The script stops and restarts the Oculus service while cleaning up all related p
 ---
 
 ## 🧱 Optional Variants
-If you prefer to **fully shut down** Oculus background services without restarting, you can create a version called:
+If you prefer to **fully shut down** Oculus background services without restarting, you can create a version called: Stop_Oculus_Runtime.bat
+
+which omits the final restart command.
+
+---
+
+## ⚠️ Notes
+- Safe to use — this script only affects Oculus background services.  
+- Does **not** modify registry entries or configuration files.  
+- Ideal for troubleshooting Oculus Link / Air Link connectivity issues.  
+
+---
+
+## 📄 License
+This project is released under the [MIT License](LICENSE).
+
+---
+
+### 💡 Tip
+If you want to integrate this into startup or system tools, you can create a Windows shortcut to the batch file and set it to **“Run as Administrator”** by default.
 
