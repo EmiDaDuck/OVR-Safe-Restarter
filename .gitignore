@@ -1,0 +1,27 @@
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Batch backup / logs
+*.log
+*.tmp
+*.bak
+*.old
+
+# Editor files
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+.vscode/
+.idea/
+
+# System metadata
+.DS_Store
+*.lnk
+
+# Optional: ignore build artifacts if you package your .bat
+build/
+dist/
